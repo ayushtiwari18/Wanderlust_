@@ -1,0 +1,215 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+.search-btn {
+  background-color: #fe424d;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-btn:hover {
+  background-color: #fe424d;
+  color: #fff;
+}
+.search-btn i {
+  margin-right: 0.5rem;
+}
+.search-input {
+  border-radius: 25px;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da; /* Ensure consistent border color */
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white; /* Default background color */
+}
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link {
+  background-color: white;
+  color: #222222 !important;
+}
+
+
+/* footer */
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.f-info-socials i {
+    font: size 1.2em;
+    margin-right: 1rem; 
+
+}
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: space-evenly;
+}
+
+  /* Cards */
+
+  .listing-card {
+    border: none !important;
+    margin: bottom 2rem;
+  }
+
+  .card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover!important;
+  }
+
+  .card-body {
+    padding: 0 !important;
+  }
+
+  .card-text p {
+    font-weight: 400;
+  }
+
+  .listing-link {
+   text-decoration: none; 
+  }
+
+  /* Card Effect */
+
+  .card-img-overlay {
+    opacity: 0;
+  }
+ .card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+ }
+ /* New Page*/
+.add-btn {
+    /* background-color: #fe424d !important; */
+    border: none !important;
+}
+
+ /* Edit Page */
+ /* @media (max-width: 700px){
+ .edit-btn::before{
+    width: 2rem;
+} } */
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show Page  */
+ 
+.show-img {
+  height: 30vh;  
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* MAP */
+
+#map{
+  height: 400px;
+  width: 70vh;
+}
+
+/* ICONS */
+.filters {
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  overflow-x: auto;
+  margin: 2rem auto; /* Centered horizontally */
+}
+
+.filter {
+  margin: 0 1rem; /* Adjusted to provide consistent spacing */
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  flex: 0 0 auto; /* Ensure the filter items don't shrink */
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.tax-toggle {
+  border: 1px solid black;
+  border-radius: 1rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.tax-toggle .form-check {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .filters {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  .navbar {
+      background-color: white; /* Change navbar background color to white for screens smaller than 768px */
+  }
+}
+@media (max-width: 1200px){
+#map{
+  height: 400px;
+  width: 40vh;
+}}
+
+@media (max-width: 760px) {
+  .tax-toggle {
+      display: none; /* Hide the tax-toggle element on screens smaller than 760px */
+  }
+}
+
