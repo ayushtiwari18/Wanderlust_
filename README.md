@@ -75,4 +75,4 @@ This project is maintained by Ayush Tiwari (https://github.com/ayushtiwari18) an
 - [Mapbox](https://www.mapbox.com/)
 
 ---
-Hosted Project link :-https://wanderlust-i6s0.onrender.com/listings
+Hosted Project link :- https://wanderlust-chlq.onrender.com/listings
