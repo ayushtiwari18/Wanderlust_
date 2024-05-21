@@ -52,7 +52,7 @@ Once the development server is running, you can access the application at `http:
 
 ## Help
 
-If you encounter any issues or have questions about the project, you can open an issue on the GitHub repository or reach out via email to [your-email@example.com].
+If you encounter any issues or have questions about the project, you can open an issue on the GitHub repository or reach out via email to [ayushtiwari102003@gmail.com].
 
 ## Contributing
 
